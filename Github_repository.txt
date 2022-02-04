@@ -1,0 +1,91 @@
+How to create a Git repository
+
+On the folder you want to save your project you need to create a new folder with the name of the repository
+
+on CMD make a directory with mkdir followed by the name of the project
+
+hit return
+
+cd to the new file, by typing cd my-git-project
+
+once the cmd is in your file you can type git init
+
+example: my-git-project>git init
+
+this will show the path where your project is found will show:
+
+projects/my-git-project/.git
+
+to find the status of the project by typing: git status
+
+will show : no commits yet and that is becouse there is no file on the repository
+
+to add a file to the repository you can type: git add my_file.py
+
+when you check the status again with git status will shoe changes to be commited: new file: my_file,py
+
+How to commit a new repository?
+
+commit is the same as to save
+
+to commit a repository type: git commit -m "Inital commit"
+
+will show the amount of files changed, insertions info
+
+if worked the will check by typing: git status
+
+will show on branch master, nothing to commit, working tree clean
+
+HOW TO PUSH A LOCAL GIT REPOSITORY  TO GIT HUB
+
+go to Github.com and sign in
+
+beside your profile is a + sign that means that you can add a new repository
+
+on the Repository name field type your project name : my-git-project
+
+leave the document in public unles you want to use the paid version for github
+
+go directly to create repository, avoid to check mark initialize repository options
+
+will show a new screen with your https link
+also will show how github has been initialize the repository but is only informative
+
+we are going to use the push section
+
+copy the first line: git remote add origin ... url 
+paste it on CMD and hit return
+to test write on cmd git remote -v
+will show 2 origin urls, one is for fetchin and one is for pushing
+
+copy the mail -m line and pase it on the cmd
+
+copy the git push -u origin master
+ will show the counting object, writing objects, enumerating objects
+
+after that go back to the github page and hit refresh or on the name of your project and will show your local  git repositoy linked to the remote github web page
+
+REVIEW THE GIT WORKFLOW
+
+add a README.md file on the visual studio code
+
+wirite # followed with the title you want on show: My Git Project and the a blockcode
+starting with > followed by the sencence you need: My code for git project
+important!!! Save it
+ check status by typing git status, will show the new README.md file and will
+notify that is not commited yet
+
+add the file to the repositoy by typing gir add .  remember the dot will add all files that are not already added
+ check status again type: git status, will show that is on branch but sill need to 
+be commited
+
+to commit file on repository type: git commit -m "Added readme fiel to repo"
+
+will show the file changed and insertions
+
+to push this file to the Github webpage yo need to type: git push
+
+will show all the counting objects now you can go to the Github page and refresh it
+
+will see the new README.md file and the title you write on the visual studio code : "My Git Project in the HTML format
+
