@@ -5,3 +5,6 @@ def hi_there():
 
 def esposa():
     print("Hello hermosa")
+
+def workTata():
+    print("New job BPO on bank")
