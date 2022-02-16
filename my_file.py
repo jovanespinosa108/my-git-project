@@ -8,3 +8,6 @@ def esposa():
 
 def workTata():
     print("New job BPO on bank")
+
+def workTata():
+    print("New job BPO on bank")
