@@ -1,6 +1,6 @@
 # My Git Project
 
-> My code for the git project
+> My conflict change to resolve
 
 ##More to read
 
